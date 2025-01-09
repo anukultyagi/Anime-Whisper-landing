@@ -20,7 +20,6 @@
 # production
 /build
 !src/data/quotes.json
-/src/data/quotes.json
 
 # misc
 .DS_Store
