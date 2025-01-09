@@ -19,7 +19,7 @@
 
 # production
 /build
-!/data/quotes.json
+!src/data/quotes.json
 
 # misc
 .DS_Store
@@ -40,3 +40,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+data.js

@@ -1,3 +1,4 @@
+import EndpointsSection from "@/components/EndPointsSection";
 import Header from "@/components/Header";
 import Head from "next/head";
 import Image from "next/image";
@@ -9,7 +10,10 @@ export default function Home() {
         <title>Anime Whisper API</title>
         <meta name="description" content="Generate random anime quotes using Anime Whisper API." />
       </Head>
-      <main className="min-h-screen bg-gradient-to-r from-purple-500 to-indigo-600 text-white flex flex-col items-center justify-center p-4">
+      <Header />
+      <EndpointsSection />
+
+      {/* <main className="min-h-screen bg-gradient-to-r from-purple-500 to-indigo-600 text-white flex flex-col items-center justify-center p-4">
         <h1 className="text-4xl font-bold mb-4">Anime Whisper API</h1>
         <p className="text-lg mb-8 text-center max-w-lg">
           Use the Anime Whisper API to generate random anime quotes with speaker details and anime names.
@@ -30,10 +34,8 @@ export default function Home() {
 }`}
           </pre>
         </div>
-        <footer className="mt-12 text-sm">
-          Built with ❤️ for anime lovers.
-        </footer>
-      </main>
+
+      </main> */}
     </div>
   );
 }
