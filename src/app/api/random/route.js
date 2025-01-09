@@ -1,4 +1,4 @@
-import { quotes } from "../../../../data";
+import quotes from '../../../data/quotes.json'
 
 export async function GET() {
 
