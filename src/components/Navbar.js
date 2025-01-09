@@ -18,10 +18,10 @@ export default function Navbar() {
                     <Link href="/" className="hover:text-yellow-300">
                         Example
                     </Link>
-                    <Link href="/DocsPage" className="hover:text-yellow-300">
+                    <Link href="/documentation" className="hover:text-yellow-300">
                         Docs
                     </Link>
-                    <Link href="/api" className="bg-yellow-400 text-black py-2 px-4 rounded-lg hover:bg-yellow-300">
+                    <Link href="/api/random" className="bg-yellow-400 text-black py-2 px-4 rounded-lg hover:bg-yellow-300">
 
                         Try API
 
@@ -43,10 +43,10 @@ export default function Navbar() {
                     <Link href="/" className="hover:text-yellow-300">
                         Example
                     </Link>
-                    <Link href="/DocsPage" className="hover:text-yellow-300">
+                    <Link href="/documentation" className="hover:text-yellow-300">
                         Docs
                     </Link>
-                    <Link href="/api" className="bg-yellow-400 text-black py-2 px-4 rounded-lg hover:bg-yellow-300">
+                    <Link href="/api/random" className="bg-yellow-400 text-black py-2 px-4 rounded-lg hover:bg-yellow-300">
 
                         Try API
 

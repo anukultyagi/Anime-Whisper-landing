@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className="p-6 flex justify-between items-center">
+        <footer className="container mx-auto py-6 px-4 flex justify-between items-center">
             <div>
                 Built with ❤️ for anime lovers.
             </div>

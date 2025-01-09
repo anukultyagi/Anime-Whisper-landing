@@ -15,7 +15,7 @@ const Header = () => {
                     <Link href="/api/random" className="bg-yellow-400 text-black py-3 px-6 rounded-lg font-semibold hover:bg-yellow-300">
                         Try API
                     </Link>
-                    <Link href="/DocsPage" className="bg-white text-indigo-600 py-3 px-6 rounded-lg font-semibold hover:bg-gray-200">
+                    <Link href="/documentation" className="bg-white text-indigo-600 py-3 px-6 rounded-lg font-semibold hover:bg-gray-200">
                         View Docs
                     </Link>
                 </div>

@@ -1,3 +1,6 @@
+import Link from "next/link";
+
+
 export default function EndpointsSection() {
     return (
         <section className="py-12 bg-gray-50">
@@ -45,12 +48,12 @@ export default function EndpointsSection() {
 
                 {/* CTA Button */}
                 <div className="text-center mt-8">
-                    <a
-                        href="/docs"
+                    <Link
+                        href="/documentation"
                         className="bg-indigo-600 text-white py-3 px-6 rounded-lg hover:bg-indigo-500"
                     >
                         View Detailed Docs
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>
