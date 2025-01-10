@@ -1,14 +1,14 @@
 import cors, { runMiddleware } from '@/app/lib/cors';
-import quotes from '../../../data/quotes.json'
+import quotes from '../../../data/quotes.json';
 
-
-export async function GET(re, res) {
-
+export async function GET(req, res) {
+    // Run the CORS middleware
     await runMiddleware(req, res, cors);
+
+    // Generate a random quote
     const randomIndex = Math.floor(Math.random() * quotes.length);
     const randomQuote = quotes[randomIndex];
 
-    return Response.status(200).json(randomQuote);
-
-
-} 
+    // Send the response
+    res.status(200).json(randomQuote);
+}
